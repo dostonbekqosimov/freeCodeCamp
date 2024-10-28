@@ -84,3 +84,12 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql --username=freecodecamp --dbname=postgres
 git init
 git add .
+git commit -m "Initial commit"
+git branch -M main
+ssh-keygen -t rsa -b 4096 -C "dostonqosimiy19@gmail.com"
+eval "$(ssh-agent -s)"
+cat ~/.ssh/id_rsa.pub
+git clone git@github.com:dostonbekqosimov/freeCodeCamp.git
+git clone git@github.com:dostonbekqosimov/freeCodeCamp.git
+git remote add origin git@github.com:dostonbekqosimov/freeCodeCamp.git
+git add .
